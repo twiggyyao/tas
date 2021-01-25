@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 100px;
+  }
+  header ul{
+    list-style: none;
+    display:flex;
+  }
+  
+  header ul li{
+    padding: 10px;
+  }
+  
+  main{
+    min-height: calc(100vh - 140px);
+  }
+  
+  footer{
+    text-align:center;
+    padding: 10px;
+    height: 40px;
+  }
